@@ -1,10 +1,10 @@
-# 🛡️ PySentinel: Static Malware Analyzer
+# 🛡️ PySentinel: Static Malware Analyzer-----------
 
 python-based security tool designed to perform static binary analysis and signature-based threat detection. 
 
 ---
 
-## 🚀 Features
+## Features--
 
 * **Cryptographic Fingerprinting:** Utilizes memory-efficient chunked streaming to calculate SHA-256 hashes of files of any size without causing RAM spikes.
 * 
@@ -16,7 +16,7 @@ python-based security tool designed to perform static binary analysis and signat
 
 ---
 
-## 📁 Architecture Blueprint
+##  Architecture Blueprint--
 
 ```text
 ├── src/
