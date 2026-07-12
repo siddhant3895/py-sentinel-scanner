@@ -12,8 +12,12 @@ def scan_directory(dir_path):
     
     for root, _, files in os.walk(dir_path):
         for file in files:
+    # Only scan targeted extensions to optimize speeds
+            if not file.endswith(('.py', '.js', '.txt', '.sh', '.bat', '.exe')):
+                skipped_cnt += 1
+                continue
+
             full_path = os.path.join(root, file)
-            # Get a clean relative path for clean console output
             display_path = os.path.relpath(full_path, dir_path)
             
             result = scan_file(full_path)
