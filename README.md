@@ -26,8 +26,8 @@ python-based security tool designed to perform static binary analysis and signat
 ├── main.py               # Main CLI entry point and orchestration engine
 ├── README.md             # Project documentation
 └── test.txt              # Safe, simulated threat target
-
-- Prerequisites ------ 
+ 
+- Prerequisites -------
 
 * Python 3.x
 * Built-in modules used: `os`, `time`, `hashlib` (No external installations required!)
