@@ -1,0 +1,4 @@
+## 📋 Prerequisites
+
+* Python 3.x
+* Built-in modules used: `os`, `time`, `hashlib` (No external installations required!)
