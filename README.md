@@ -1,4 +1,4 @@
-# 🛡️ PySentinel: Static Malware Analyzer-----------
+# 🛡️ PySentinel Scanner ------------
 
 python-based security tool designed to perform static binary analysis and signature-based threat detection. 
 
